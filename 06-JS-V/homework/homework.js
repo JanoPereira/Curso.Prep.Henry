@@ -17,6 +17,11 @@ function crearUsuario() {
   Usuario.prototype.saludar = function(){
     return 'Hola, mi nombre es ' + this.nombre;
   }
+<<<<<<< HEAD
+=======
+  }
+  return Usuario;
+>>>>>>> 57667e54b7d28800d958213c99549259aca73a18
   
 }
 
@@ -64,10 +69,17 @@ function agregarStringInvertida() {
       this.domicilio = domicilio;
     }
     detalle(){
+<<<<<<< HEAD
     return {Nombre: this.nombre,
             Apellido: this.apellido,
             Edad: this.edad,
             Domicilio: this.domicilio}
+=======
+    return {Nombre= this.nombre,
+            Apellido = this.apellido,
+            Edad = this.edad,
+            Domicilio = this.domicilio}
+>>>>>>> 57667e54b7d28800d958213c99549259aca73a18
     }
 }
 
